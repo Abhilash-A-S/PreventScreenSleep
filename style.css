@@ -1,0 +1,61 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+}
+
+.button-conatiner {
+    width: 100%;
+    height: 100%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosleeep-btn {
+    display: block;
+    padding: 20px;
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.6s;
+}
+
+.nosleeep-btn:hover {
+    background-color: #e91e63;
+}
+
+.background-animation {
+    background: #bea2d2;
+    animation: mymove 4s infinite;
+}
+
+@keyframes mymove {
+    from {
+        background-color: #bea2d2;
+    }
+
+    to {
+        background-color: #c1e9d9;
+    }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Sleep</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./external/nosleep.min.js"></script>
+</head>
+
+<body>
+    <div class="main-container" id="indexPage">
+        <div class="button-conatiner align-center">
+            <button class="nosleeep-btn cursor-pointer" id="enableNosleep">Click me!!!</button>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        indexPage.initialize();
+    });
+</script>
+
+</html>
